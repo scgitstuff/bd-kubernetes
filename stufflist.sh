@@ -10,6 +10,7 @@ kubectl apply -f crawler-service.yaml
 kubectl apply -f web-configmap.yaml
 kubectl apply -f web-deployment.yaml
 kubectl apply -f web-service.yaml
+kubectl apply -f web-hpa.yaml
 
 kubectl apply -f testram-configmap.yaml
 kubectl apply -f testram-deployment.yaml
