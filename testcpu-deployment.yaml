@@ -19,4 +19,4 @@ spec:
           resources:
             limits:
               # memory: <max-memory>
-              cpu: 50m
+              cpu: 10m
