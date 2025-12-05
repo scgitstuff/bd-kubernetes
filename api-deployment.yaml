@@ -23,6 +23,11 @@ spec:
                   key: API_PORT
             - name: API_DB_FILEPATH
               value: /persist/db.json
+            - name: CRAWLER_BASE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: synergychat-api-configmap
+                  key: CRAWLER_BASE_URL
 
           volumeMounts:
             - name: synergychat-api-volume
